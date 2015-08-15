@@ -1,0 +1,179 @@
+
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+body {
+    background: url("../img/checkerboard.jpg") repeat;
+}
+
+
+@media (min-width: 992px) {
+    /* CSS goes here */
+    .sidebar-col {
+        position:fixed;
+    }
+}
+
+/* Profile container */
+.profile {
+    margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+    padding: 20px 0 10px 0;
+    background: #fff;
+}
+
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*.profile-userbuttons .btn {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+    margin-right: 0px;
+}*/
+
+.profile-usermenu {
+    margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+    border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+    color: #93a3b5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+
+/* HOVER */
+.profile-usermenu ul li a:hover {
+    background-color: #fafcfd;
+    color: #5b9bd1;
+}
+
+/* SPECIAL COLORS - only works on > IE9 */
+
+.profile-usermenu ul li:nth-child(2) a:hover {
+    background-color: #ffffe9;
+    color: #d1d70f;
+}
+
+.profile-usermenu ul li:nth-child(3) a:hover {
+    background-color: #f6fff1;
+    color: #22c022;
+}
+
+.profile-usermenu ul li:nth-child(4) a:hover {
+    background-color: #fff2f3;
+    color: #ff3738;
+}
+
+
+/* ACTIVE */
+.profile-usermenu ul li.active a {
+    background-color: #fafcfd;
+    color: #5b9bd1;
+    border-left: 2px solid #5b9bd1;
+    margin-left: -2px;
+}
+
+/* SPECIAL COLORS - only works on > IE9 */
+.profile-usermenu ul li:nth-child(2).active a {
+    background-color: #ffffe9;
+    color: #d1d70f;
+    border-left: 2px solid #d1d70f;
+}
+
+.profile-usermenu ul li:nth-child(3).active a {
+    background-color: #f6fff1;
+    color: #22c022;
+    border-left: 2px solid #22c022;
+}
+
+.profile-usermenu ul li:nth-child(4).active a {
+    background-color: #fff2f3;
+    color: #ff3738;
+    border-left: 2px solid #ff3738;
+}
+
+/* Profile Content */
+.profile-content {
+    padding: 20px;
+    background: #fff;
+    min-height: 460px;
+}
+
+
+.section-title {
+    background: url("../img/line.png") left center repeat-x;
+    text-align: center;
+}
+
+.section-title h2 {
+    width: 220px;
+    margin: 0 auto;
+    background: #fff;
+    font-size: 24px;
+    color: #5d5d5d;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+
+#linkedin {
+    -vendor-animation-delay: 2000ms;
+}
