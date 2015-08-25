@@ -176,6 +176,10 @@ body {
     font-family: 'Lobster', cursive;
 }
 
+#age {
+    font-family: 'Inconsolata', monospace;
+}
+
 
 @media (min-width: 992px) {
     .equal, .equal > div[class*='col-'] {

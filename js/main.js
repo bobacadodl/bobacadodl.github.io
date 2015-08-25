@@ -19,4 +19,14 @@ $(function(){
 
     $('[data-toggle="popover"]').popover();
     $('[data-toggle="tooltip"]').tooltip();
+
+    var dob = new Date(1997, 10, 20, 5, 12, 0, 0);
+    var age = $('#age');
+    setInterval(function(){
+        var now = Date.now();
+
+        var diff = (now-dob)/31556952000;
+        age.text(diff.toString().substring(0, 15));
+
+    },100);
 });
