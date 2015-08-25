@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <title>Ankur Sundara</title>
 
-    <link rel="stylesheet" type='text/css' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" type='text/css' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lobster'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type='text/css' href="css/animate.css">
     <link rel="stylesheet" type='text/css' href="css/styles.css">
+
+    <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lobster'>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
 </head>
-<body data-spy="scroll" data-target="#scrollSpy" data-offset="40">
+<body data-spy="scroll" data-target="#scrollSpy" data-offset="50">
 
 <div class="row profile">
     <div class="col-md-3 sidebar-col animated slideInDown wow">
@@ -47,7 +49,7 @@
                 <ul class="nav">
                     <li class="active">
                         <a href="#about">
-                            <i class="glyphicon glyphicon-user"></i>
+                            <i class="fa fa-user"></i>
                             About Me </a>
                     </li>
                     <li>
@@ -76,7 +78,6 @@
                 <div class="section-title animated fadeIn wow">
                     <h2>About Me</h2>
                 </div>
-
                 Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>Section1<br>
             </div>
             <hr>
@@ -84,21 +85,108 @@
                 <div class="section-title animated fadeIn wow">
                     <h2>My Projects</h2>
                 </div>
-                Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>Section2<br>
+                <br><br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">EyeSpy <i class="fa fa-eye"></i></h3>
+                            </div>
+                            <div class="panel-body">
+                                <p>
+                                    EyeSpy is an application that uses the computer's webcam to track eye movement in order to control the mouse completely hands-free.
+                                    It was written in Java, and uses a port of the OpenCV library for image processing and eye tracking.
+                                    The algorithm for eye tracking is based upon
+                                    It also
+                                    This project won the first place prize at
+                                    <a href="http://www.hackexeter.com/2015-winter.html" target="_blank">HackExeter Winter 2015</a> (4 Pebble Steel watches)!
+                                </p>
+                                <a class="btn btn-primary" href="https://github.com/kareemroks101/HackExeter-EyeSpy" target="_blank"> Source <i class="fa fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">BookKeep <i class="fa fa-book"></i></h3>
+                            </div>
+                            <div class="panel-body">
+                                <p>
+                                    BookKeep is a textbook checkout app that I created for my school to easily keep track of textbooks.
+                                    A teacher can scan a QR code or a barcode on a book, then type in a student's name to associate the book with the student.
+                                    To check the book back in, the teacher simply needs to scan the barcode again.
+                                    Teachers can also figure out which students have not returned books,
+                                    and search the database for specific students to see what books they have checked out.
+                                    The client-side uses Ionic Framework (HTML/CSS/Javascript) for cross-platform compatibility,
+                                    and the server side uses PHP and a MySQL Database.
+                                </p>
+                                <a class="btn btn-primary" href="https://github.com/bobacadodl/BookKeep-client" target="_blank"> Client Side <i class="fa fa-external-link"></i></a>
+                                <a class="btn btn-primary" href="https://github.com/bobacadodl/BookKeep-server" target="_blank"> Server Side <i class="fa fa-external-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">SciBowl Question Generator <i class="fa fa-flask"></i></h3>
+                            </div>
+                            <div class="panel-body">
+                                <p>
+                                    This application generates <a href="http://science.energy.gov/wdts/nsb/" target="_blank">Science Bowl</a> questions for students to practice with.
+                                    It allows question filtration by category, difficulty, and question type (multiple choice or short answer).
+                                    The questions were collected from NSB's publicly available question PDFs by using Apache PDFbox to parse the text and dump it into a JSON file for the server to use.
+                                    The application uses Node.js for the backend, Socket.io for real-time communication, and Express to serve files.
+                                </p>
+                                <a class="btn btn-primary" href="https://github.com/bobacadodl/SciBowl-Question-Generator" target="_blank"> Source <i class="fa fa-external-link"></i></a>
+                                <button class="btn btn-primary" disabled> Link (coming soon) <i class="fa fa-external-link"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <hr>
             <div id="accomplishments">
                 <div class="section-title animated fadeIn wow">
                     <h2>My Accomplishments</h2>
                 </div>
-                Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>Section3<br>
+                <ul>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                    <li>Being a swag pro</li>
+                </ul>
             </div>
             <hr>
             <div id="contact">
                 <div class="section-title animated fadeIn wow">
                     <h2>Contact Me</h2>
                 </div>
-                Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>Section4<br>
+                <p>R u a stalker m8?</p>
             </div>
         </div>
     </div>
