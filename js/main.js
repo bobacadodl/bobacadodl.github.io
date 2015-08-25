@@ -16,4 +16,7 @@ $(function(){
         return false;
     });
     $('.scrollTop a').scrollTop();
+
+    $('[data-toggle="popover"]').popover();
+    $('[data-toggle="tooltip"]').tooltip();
 });
