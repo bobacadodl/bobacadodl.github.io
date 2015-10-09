@@ -1,9 +1,3 @@
-/***
-User Profile Sidebar by @keenthemes
-A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
-Licensed under MIT
-***/
-
 body {
     background: url("../img/checkerboard.jpg") repeat;
 }
@@ -175,11 +169,10 @@ body {
     text-align: center;
 }
 
-.section-title h2 {
+.section-title h4 {
     width: 220px;
     margin: 0 auto;
     background: #fff;
-    font-size: 2em;
     color: #5d5d5d;
     font-weight: bold;
     font-family: 'Lobster', serif;
