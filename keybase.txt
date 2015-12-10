@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/bobacadodl
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ankursundara.com
+  * I am bobacadodl (https://keybase.io/bobacadodl) on keybase.
+  * I have a public key with fingerprint 6884 5C72 30CD A5C9 AA3B  4EC3 8043 DDFA 4EA3 F64E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010100e05cf06018eef227f84319ac59de5ee8d263bbdcb660b4b3b2a95a4c1d63b80a",
+            "fingerprint": "68845c7230cda5c9aa3b4ec38043ddfa4ea3f64e",
+            "host": "keybase.io",
+            "key_id": "8043ddfa4ea3f64e",
+            "kid": "010100e05cf06018eef227f84319ac59de5ee8d263bbdcb660b4b3b2a95a4c1d63b80a",
+            "uid": "132b7e46a2f4ff41903816d51731a019",
+            "username": "bobacadodl"
+        },
+        "service": {
+            "hostname": "ankursundara.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1449718293,
+    "expire_in": 157680000,
+    "prev": "2fe90c2491eb9c132af4962002cdad8463886724d3c2fc81cc9fb9f1bb020d15",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMItAnicrVJbbA1BGD4tSpuIupSkImJF0khbM7Oze3bXPSSaeCGVE6J6zG3bdY7d
+Y8+e0pQg7hJJXSKibiESl1biEvogVKstShAPhHhwT0hJBXFrmG1482jmYfL/833f
+fP8///XB/SJ5WT3DmzWrpGdSVte1A5lIrPpjQZ1CPV6rWHVKQvQdIslFOognHK5Y
+CoByAwE0ZgMdQEMIG6GobWAVmoRpJheaEAZHukopZ1TXAcVUpYiYGsEMcpk3AFGK
+Fdtxq4Sf8h03kLK6YWCNRZEKGCcaMwlRKRZMNQBWObcJFkS1dSwksdpLhwxpjpK0
+KHU8mZNBvM/eP/D/2XemTw6qiEYF1gmysW1jaALVgDrXYFSFBEAzBKaF75LlQqKp
+Rwkj3ONJZU2xIvM1DhNha8Na/mCIm8j46YzLiU9KmbdcKqR8L/CYl5S31UGQskJy
+UJsK0SsFjf/RiVPH5bKZklAj/LTjuYoFJZIFTigMMTaj0ECmWqyIVSnHF3EnRGhR
+3QByhc+IGimJbGEChrAJBTWZLJDY2NQRAEh+CTewrhqGHkWYqwzZzICMmTY1bUgp
+QIBDTQkrW+F6iqVJm6RKSqadKpcEGV8oa1pbKvpHsvIiOQOywyGL5OXm/x29fDLw
+V9myn+0PZ0aDpvoZ7Zd/3Dky9Yuh1M+PPVDa+sVm3dpRdHPXt2RLW+Ew1Mjrvk65
+W9c76mjOxLyW+sH35+4or12WWn/p5NaniUfHT9U0Pi172zz7cMWb3HVi7Jm3sS3J
+vRObpo3Z9nJJ98vg+etDY86n3pX3dPIP3v05mzu5FflxMnmvoaCz6+DV4tYR8Kb7
+fcLuV73z1p94kD9+dOXkC9mbKiqKkp+er26oTJxbWlmQu+Dhxqvv3cVdDetKKo9N
+ebw/1ix2Hn2xfd/d7gFre2ubnQ3bFl15NHJQR/lZ61lV0Y220wsj2ccmTz/ecbF1
+++0Dn0eNLO9ueTK1LOcb2lN4zTIKx60cMrT/b0TqRlA=
+=OypX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bobacadodl
+
+==================================================================
