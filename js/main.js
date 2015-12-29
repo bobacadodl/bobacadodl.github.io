@@ -26,7 +26,7 @@ $(function(){
         var now = Date.now();
 
         var diff = (now-dob)/31556952000;
-        age.text(diff.toString().substring(0, 11));
+        age.text(diff.toString().substring(0, 12));
 
     },100);
 });
