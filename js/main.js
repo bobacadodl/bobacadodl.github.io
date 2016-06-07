@@ -18,7 +18,7 @@ $(function(){
     $('.scrollTop a').scrollTop();
 
     $('[data-toggle="popover"]').popover();
-    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip({placement : 'bottom'});
 
     var dob = new Date(1997, 10, 20, 5, 12, 0, 0);
     var age = $('#age');
