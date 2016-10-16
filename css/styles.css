@@ -1,5 +1,5 @@
 body {
-    background: url("../img/checkerboard.jpg") repeat;
+    background: url("../img/congruent_outline.png") repeat;
 }
 
 @media (min-width: 992px) {
@@ -23,7 +23,7 @@ body {
 /* Profile sidebar */
 .profile-sidebar {
     padding: 20px 0 10px 0;
-    background: #fff;
+    background: #eee;
 }
 
 .profile-userpic img {
@@ -88,7 +88,7 @@ body {
 }
 
 .profile-usermenu ul li {
-    border-bottom: 1px solid #f0f4f7;
+    border-bottom: 1px solid #999;
 }
 
 .profile-usermenu ul li:last-child {
@@ -159,7 +159,7 @@ body {
 /* Profile Content */
 .profile-content {
     padding: 20px;
-    background: #fff;
+    background: #eee;
     min-height: 100px;
 }
 
@@ -172,10 +172,10 @@ body {
 .section-title h4 {
     width: 220px;
     margin: 0 auto;
-    background: #fff;
+    background: #eee;
     color: #5d5d5d;
     font-weight: bold;
-    font-family: 'Lobster', serif;
+    font-family: 'Bungee Inline', cursive;
 }
 
 #age {
